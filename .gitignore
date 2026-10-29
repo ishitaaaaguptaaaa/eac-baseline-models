@@ -1,0 +1,28 @@
+# Data and generated outputs (contain respondent information)
+data/*
+!data/README.md
+outputs/
+*.xlsx
+*.xls
+*.csv
+*.joblib
+*.log
+
+# Local exclusion list (real respondent ids)
+config/excluded_ids.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local notes
+handoff/

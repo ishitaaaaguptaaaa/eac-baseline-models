@@ -1,0 +1,5 @@
+# Respondent ids to remove during cleaning, one per line.
+# Copy this file to config/excluded_ids.txt (git-ignored) and add the real ids.
+# Matching ignores upper/lower case and surrounding spaces.
+someone@example.com
+another.tester@example.com
